@@ -99,7 +99,7 @@ p {
 }
 */
 
-/* HERO SECTION */
+/* HERO SECTION START */
 .hero {
     height: 800px;
     width: 100%;
@@ -108,7 +108,8 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*
+/* HERO SECTION END */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -118,29 +119,25 @@ p {
     float: right;
     margin-left: 25px;
 }
-*/
+
 /* CONTENT INFORMATION*/
-.text-left {
+/*
+.full-content {
+    /*width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    
     text-align: left;
 }
-
-.text-right {
-    text-align: right;
-}
-
-.full-content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-/*
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 */
+/*This is the general content section */
 .content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content-info {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -148,17 +145,26 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.content img {
+/*content specific text and image
+.content-text {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    float: left;
+}
+*/
+.content-info img {
     max-height: 200px;
 }
 
-.content h2 {
+
+
+.content-info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.content p {
+.content-info p {
     font-size:16px;
 }
 
